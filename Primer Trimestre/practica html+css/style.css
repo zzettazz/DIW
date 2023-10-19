@@ -1,0 +1,45 @@
+/* Estilos generales de la lista */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 100; /* Asegura que esté por encima de otros elementos */
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    height: 50px; /* Ajusta la altura del menú según tus preferencias */
+}
+
+.lista li {
+    display: inline;
+    margin: 0 10px; /* Espaciado entre elementos */
+}
+
+.lista a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.lista a:hover {
+    background-color: white;
+    color: black;
+}
+
+.botoncss{
+    border:2px solid black;
+    padding: 10px;
+    background-color: lightgreen;
+    padding-left: 20px;
+    padding-right: 20px;
+}
