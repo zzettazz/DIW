@@ -1,0 +1,22 @@
+p, a{
+	border: 2px dashed black;
+}
+ul{
+	font-size: 20px;
+	margin: 0px; padding: 0px;
+}
+ul li{
+	display: inline;
+	border: 2px solid black;
+	background-color: blue;
+	color: white;
+	padding: 15px;	
+}
+ul li a{
+	border: none;
+	text-decoration: none;
+	color: white;
+}
+li:hover{
+	background-color: green;
+}

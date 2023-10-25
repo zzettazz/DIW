@@ -1,0 +1,5 @@
+Guía breve de accesibilidad web: http://www.w3c.es/Divulgacion/GuiasBreves/Accesibilidad
+Accesibilidad web (Wikipedia): http://es.wikipedia.org/wiki/Accesibilidad_web
+
+-------------------------------- EJERCICIOS --------------------------------
+Pencil Project: http://pencil.evolus.vn/

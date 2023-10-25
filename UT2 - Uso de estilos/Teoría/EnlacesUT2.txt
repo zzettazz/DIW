@@ -1,0 +1,9 @@
+CSS (librosweb): http://librosweb.es/css/
+Referencia de CSS 2.1:  http://www.librosweb.es/referencia/css/
+Tutorial CSS (w3schools): http://www.w3schools.com/css/
+Ejemplos CSS (w3schools): http://www.w3schools.com/css/css_examples.asp
+
+------------------------------ EJERCICIOS ------------------------------
+
+Ejercicios W3Schools (solo para practicar): https://www.w3schools.com/css/exercise.asp
+Colores: https://htmlcolorcodes.com/es/

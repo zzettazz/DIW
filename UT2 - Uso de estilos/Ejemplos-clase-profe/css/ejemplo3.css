@@ -1,0 +1,13 @@
+.destacado{
+	color: green;
+}
+.destacado:hover{
+	color: red;
+}
+#nombre:focus{
+	background-color: yellow;
+}
+/*pseudo-elementos*/
+p:hover::first-line{
+	text-transform: uppercase;
+}

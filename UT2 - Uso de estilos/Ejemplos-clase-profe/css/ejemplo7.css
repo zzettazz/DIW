@@ -1,0 +1,35 @@
+*{
+	padding: 0px; margin:0px;
+}
+ul{
+	margin-top: 20px;
+	text-align: center;
+}
+li{
+	display: inline-block;
+	width: 19%; height: 50px;
+	border: 2px solid black;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	background-color: aquamarine;
+}
+li:hover{
+	background-color: blue;
+	color: white;
+	box-shadow: -10px -10px 10px gray;
+}
+div.boton{
+	height: 159px;
+	width: 159px;
+	background-image: url("../img/button.jpg")	
+}
+div.boton:hover{
+	background-position-x: -159px;
+	box-shadow: 10px 10px 10px yellow;
+}
+div.icono{
+	width: 24px; height: 24px;
+	background-image: url("../img/icons.jpg");
+	background-position-x: 48px;
+}

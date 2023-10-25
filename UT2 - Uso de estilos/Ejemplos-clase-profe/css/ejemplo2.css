@@ -1,0 +1,18 @@
+*{
+	padding: 0px; margin:0px;
+}
+.parrafo{
+	background: green;
+	color: white;
+	line-height: 30px;
+}
+#unico{
+	border: 2px dashed black;
+}
+div.caja{
+	border: 3px dotted blue;
+	height: 100px; width: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 100px;	
+}

@@ -1,0 +1,18 @@
+body{
+	padding: 0px; margin: 0px;
+}
+.cuadrado{
+	border: 2px solid black;
+	width: 150px; height: 150px;
+	line-height: 150px; text-align: center;
+	background-color: blue; color: white;
+}
+.uno, .dos, .tres{
+	position: relative;
+}
+.flota_izq{
+	float: left;
+}
+.flota_der{
+	float: right;
+}
