@@ -1,0 +1,29 @@
+.titulo {
+    font-weight: bold;
+}
+
+.requerido {
+    color: red;
+}
+
+.formulario li {
+    list-style: none;
+}
+
+.subtitulo{
+    font-size: 70%;
+    color: rgb(101, 101, 101);
+}
+
+#nombre,#apellido1,#apellido2 {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    border: 1px solid hsla(0, 0%, 0%, 0.348);
+    border-bottom: none;
+    border-right: none;
+    background-color: rgba(245, 222, 179, 0.318);
+}
+
+.datosPersonales {
+    float: left;
+}

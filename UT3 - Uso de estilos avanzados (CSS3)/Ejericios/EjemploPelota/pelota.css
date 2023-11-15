@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedorPelota {
+    border: 2px solid black;
+    width: 39.5vw;
+    height: 31.5vh;
+}
+
+.pelota {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    animation: botar 2s infinite;
+}
+
+@keyframes botar {
+    0%, 100% {
+        transform: translate(0, 0); /* Punto de inicio y final en el centro */
+    }
+    25% {
+        transform: translate(33vw, 0); /* Mover hacia la derecha */
+    }
+    50% {
+        transform: translate(33vw, 100px); /* Mover hacia abajo */
+    }
+    75% {
+        transform: translate(0, 100px); /* Mover hacia la izquierda */
+    }
+}
