@@ -36,3 +36,7 @@ body {
         transform: translate(0, 100px); /* Mover hacia la izquierda */
     }
 }
+
+.jugador{
+    height: 2vh;
+}
