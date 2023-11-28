@@ -19,6 +19,16 @@ footer {
     animation: nevando 10s infinite ;
 }
 
+.pajaro {
+    top:10vh;
+    position: absolute;
+    width: 124px; /* Ajusta el ancho según tus necesidades */
+    height: 114px; /* Ajusta la altura según tus necesidades */
+    background-image: url('img/pajaros.png');
+    background-position: 0px;
+    animation: aleteando .4s steps(5) infinite, volando 5s infinite;
+}
+
 @keyframes nevando {
     0% {
         transform: translateY(0);
@@ -33,6 +43,34 @@ footer {
     }
     100% {
         transform: translateY(0);
+        opacity: 0;
+    }
+}
+
+@keyframes aleteando {
+    from  {
+        background-position: 0px;
+    }
+    to {
+        background-position: -670px;
+    }
+
+}
+
+@keyframes volando  {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(80vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
         opacity: 0;
     }
 }
