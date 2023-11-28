@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+footer {
+    margin-top: 80%;
+    background-color: brown;
+    height: 5vh;
+}
+
+.coponieve img {
+    width: 6vw;
+}
+
+.coponieve {
+    top: 0;
+    position: absolute;
+    animation: nevando 10s infinite ;
+}
+
+@keyframes nevando {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(80vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+}
