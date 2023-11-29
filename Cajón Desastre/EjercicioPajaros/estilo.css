@@ -26,7 +26,7 @@ footer {
     height: 114px; /* Ajusta la altura según tus necesidades */
     background-image: url('img/pajaros.png');
     background-position: 0px;
-    animation: aleteando .4s steps(5) infinite, volando 5s infinite;
+    animation: aleteando .5s steps(5) infinite, volando 5s infinite;
 }
 
 @keyframes nevando {
@@ -67,10 +67,10 @@ footer {
     }
     50% {
         transform: translateX(80vh);
-        opacity: 0;
+        opacity: 1;
     }
     100% {
         transform: translateX(0);
-        opacity: 0;
+        opacity: 1;
     }
 }
