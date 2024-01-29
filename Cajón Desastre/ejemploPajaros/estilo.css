@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.pajaro {
+    width: 134px;
+    height: 124px;
+    background-image: url("img/pajaros.png");
+    animation: aletear .4s steps(5) infinite, volar 10s linear infinite;
+}
+
+@keyframes aletear
+{
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: 670px;
+    }
+}
+
+@keyframes volar {
+    0% {
+        transform: translate(0vh, 0vw);
+        opacity: 1;
+    }
+    25% {
+        transform: translate(50vw, -5vh);
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+    }
+    50% {
+        transform: translate(100vw, 5vh);
+        opacity: 0;
+    }
+    75% {
+        transform: translate(50vw, -5vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0vh, 0vw);
+        opacity: 0;
+    }
+}

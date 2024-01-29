@@ -1,0 +1,211 @@
+body {
+    background-image: url("img/montañas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden; /* Evita barras de desplazamiento */
+}
+
+/* NUBE 1 */
+
+.nube1 {
+    position: absolute;
+    background-color: white;
+    top: 30px;
+    left: 30px; /* Inicialmente fuera de la pantalla */
+    height: 40px;
+    width: 90px;
+    border-radius: 25px;
+    opacity: 0.6;
+    animation: desplazarse 20s linear infinite;
+}
+
+.nube1:hover {
+    animation-play-state: paused;
+}
+
+.nube12 {
+    position: absolute;
+    background-color: white;
+    height: 70px;
+    width: 40px;
+    border-radius: 25px;
+    margin-left: 25px;
+    top: -15px;
+    transform: rotate(20deg);
+}
+
+.lluvia1 {
+    top: 30px;
+    left: 40px;
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    background-color: aqua;
+    border-radius: 15px;
+    animation: gotear 5s linear infinite;
+}
+
+/* NUBE 2 */
+
+.nube2 {
+    position: absolute;
+    background-color: white;
+    top: 90px;
+    left: 10px;
+    height: 40px;
+    width: 90px;
+    border-radius: 25px;
+    opacity: 30%;
+    animation: desplazarse2 20s linear infinite;
+}
+
+.nube2:hover {
+    animation-play-state: paused;
+}
+
+.nube22 {
+    position: absolute;
+    background-color: white;
+    height: 70px;
+    width: 40px;
+    border-radius: 25px;
+    margin-left: 25px;
+    top: -15px;
+    transform: rotate(20deg);
+}
+
+/* NUBE 3 */
+
+.nube3 {
+    position: absolute;
+    background-color: white;
+    left: 90px;
+    height: 40px;
+    width: 90px;
+    border-radius: 25px;
+    animation: desplazarse3 20s linear infinite;
+}
+
+.nube3:hover {
+    animation-play-state: paused;
+}
+
+.nube32 {
+    position: absolute;
+    background-color: white;
+    height: 70px;
+    width: 40px;
+    border-radius: 25px;
+    margin-left: 25px;
+    top: -15px;
+    transform: rotate(20deg);
+}
+
+@keyframes gotear {
+
+    0% {
+        transform: translateY(0vh);
+        opacity: 1;
+    }
+    25% {
+        transform: translateY(25vh);
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(50vh);
+        opacity: 0;
+    }
+    75% {
+        transform: translateY(25vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0vh);
+        opacity: 0;
+    }
+
+}
+
+@keyframes desplazarse {
+    0% {
+        transform: translate(0vw,0vh);
+        opacity: 0.6;
+    }
+    25% {
+        transform: translate(50vw,5vh);
+        opacity: 0.6;
+    }
+    45% {
+        opacity: 0.6;
+    }
+    50% {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+    75% {
+        transform: translateX(-50vw);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0vw);
+        opacity: 0;
+    }
+
+}
+
+@keyframes desplazarse2 {
+    0% {
+        transform: translate(0vw,0vh);
+        opacity: 0.3;
+    }
+    25% {
+        transform: translate(50vw,-5vh);
+        opacity: 0.3;
+    }
+    45% {
+        opacity: 0.3;
+    }
+    50% {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+    75% {
+        transform: translateX(-50vw);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0vw);
+        opacity: 0;
+    }
+
+}
+
+@keyframes desplazarse3 {
+    0% {
+        transform: translateX(0vw,0vh);
+        opacity: 1;
+    }
+    25% {
+        transform: translate(50vw,10vh);
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+    75% {
+        transform: translateX(-50vw);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0vw);
+        opacity: 0;
+    }
+
+}
