@@ -1,0 +1,16 @@
+.cuadrado {
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    transition: all 1s;
+}
+
+.cuadrado:hover {
+    border-width: 30px;
+    padding-bottom: 200px;
+    background-color: blue;
+    border-radius: 25px;
+    border-color: red;
+    rotate: 90deg;
+}

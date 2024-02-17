@@ -1,0 +1,63 @@
+/*CSS BASE Grupo1*/
+body {
+    margin: 0px;
+}
+
+#container {
+    background: url(img/imagen.jpg) no-repeat;
+    width: 590px;
+    height: 400px;
+    position: relative;
+}
+
+.snowflake {
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+}
+
+.snowflake.f1 {
+    left: 40px;
+}
+
+.snowflake.f2 {
+    font-size: 1.8em;
+    left: 120px;
+}
+
+.snowflake.f3 {
+    left: 200px;
+}
+
+.snowflake.f4 {
+    font-size: 1.5em;
+    left: 280px;
+}
+
+/* NUESTRO CSS */
+.snowflake {
+    top: -40px;
+    animation: caer 5s linear infinite;
+}
+
+.snowflake.f1 {
+    animation: vaiven 5s ;
+}
+
+@keyframes caer {
+    0% {
+        top: -40px;
+    }
+    100% {
+        top: 400px;
+    }
+}
+
+@keyframes vaiven {
+    0% {
+        left: 40px;
+    }
+    100% {
+        left: 40px;
+    }
+}

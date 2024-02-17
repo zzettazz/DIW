@@ -1,0 +1,76 @@
+/* CSS Ejercicio 2 */
+body {
+    background-image: url(../img/gaseosa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 30vh;
+}
+
+.burbuja1 {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: transparent;
+    top: 35vh;
+    left: 70vw;
+    animation: ascender 7s linear infinite;
+}
+
+.burbuja2 {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: transparent;
+    top: 35vh;
+    left: 80vw;
+    animation: ascender 5s linear infinite;
+    animation-delay: 2s;
+    opacity: 0;
+}
+
+.burbuja3 {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: transparent;
+    top: 35vh;
+    left: 60vw;
+    animation: ascender 5s linear infinite;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+.burbuja1:hover, .burbuja2:hover, .burbuja3:hover {
+    animation-play-state: paused;
+}
+
+
+@keyframes ascender {
+    0% {
+        top: 35vh;
+        opacity: 1;
+    }
+    25% {
+        top: 30vh;
+        opacity: 0.8;
+    }
+    50% {
+        top: 25vh;
+        opacity: 0.6;
+    }
+    75% {
+        top: 20vh;
+        opacity: 0.4;
+    }
+    100% {
+        top: 15vh;
+        opacity: 0;
+    }
+}
+
